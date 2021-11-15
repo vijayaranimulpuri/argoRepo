@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 13 16:05:51 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>268 seconds (268100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.argocrm.Product.ClickNewContact.NewContactPage()'><b>NewContactPage</b><br>Test class: com.argocrm.Product.ClickNewContact</td>
+<td></td>
+<td>25</td>
+<td>com.argocrm.Product.ClickNewContact@5a8806ef</td></tr>
+<tr>
+<td title='com.argocrm.Product.NewCampainPage.CampainPage()'><b>CampainPage</b><br>Test class: com.argocrm.Product.NewCampainPage</td>
+<td></td>
+<td>28</td>
+<td>com.argocrm.Product.NewCampainPage@694e1548</td></tr>
+<tr>
+<td title='com.argocrm.tests.CreateProducts.Products()'><b>Products</b><br>Test class: com.argocrm.tests.CreateProducts<br/>
+<a href="#Output-684822005" onClick='toggleBox("Output-684822005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684822005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684822005">
+create product sucessfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.argocrm.tests.CreateProducts@4f063c0a</td></tr>
+<tr>
+<td title='com.argocrm.Product.ClickContacts.ContactsPage()'><b>ContactsPage</b><br>Test class: com.argocrm.Product.ClickContacts</td>
+<td></td>
+<td>4</td>
+<td>com.argocrm.Product.ClickContacts@131276c2</td></tr>
+<tr>
+<td title='com.argocrm.Product.VerifyHomePageTest.Homepage()'><b>Homepage</b><br>Test class: com.argocrm.Product.VerifyHomePageTest</td>
+<td></td>
+<td>6</td>
+<td>com.argocrm.Product.VerifyHomePageTest@1e6d1014</td></tr>
+<tr>
+<td title='com.argocrm.Product.ClickLeads.Leads()'><b>Leads</b><br>Test class: com.argocrm.Product.ClickLeads</td>
+<td></td>
+<td>18</td>
+<td>com.argocrm.Product.ClickLeads@614ddd49</td></tr>
+<tr>
+<td title='com.argocrm.Product.CreateProductsTest.SignInPage()'><b>SignInPage</b><br>Test class: com.argocrm.Product.CreateProductsTest</td>
+<td></td>
+<td>3</td>
+<td>com.argocrm.Product.CreateProductsTest@3fd7a715</td></tr>
+<tr>
+<td title='com.argocrm.Product.ClickProductsPage.ProductPage()'><b>ProductPage</b><br>Test class: com.argocrm.Product.ClickProductsPage</td>
+<td></td>
+<td>24</td>
+<td>com.argocrm.Product.ClickProductsPage@1f554b06</td></tr>
+<tr>
+<td title='com.argocrm.Product.ClickPotentials.Potential()'><b>Potential</b><br>Test class: com.argocrm.Product.ClickPotentials</td>
+<td></td>
+<td>12</td>
+<td>com.argocrm.Product.ClickPotentials@76707e36</td></tr>
+<tr>
+<td title='com.argocrm.Product.ClickPurchaseOrder.Purchase()'><b>Purchase</b><br>Test class: com.argocrm.Product.ClickPurchaseOrder</td>
+<td></td>
+<td>84</td>
+<td>com.argocrm.Product.ClickPurchaseOrder@26aa12dd</td></tr>
+</table><p>
+</body>
+</html>

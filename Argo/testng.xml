@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.argocrm.Product.ClickNewContact"/>
+      <class name="com.argocrm.tests.CreateProducts"/>
+      <class name="com.argocrm.Product.VerifyHomePageTest"/>
+      <class name="com.argocrm.Product.ClickPotentials"/>
+      <class name="com.argocrm.Product.ClickLeads"/>
+      <class name="com.argocrm.Product.ClickProductsPage"/>
+      <class name="com.argocrm.Product.NewCampainPage"/>
+      <class name="com.argocrm.Product.ClickContacts"/>
+      <class name="com.argocrm.Product.ClickPurchaseOrder"/>
+      <class name="com.argocrm.Product.CreateProductsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
