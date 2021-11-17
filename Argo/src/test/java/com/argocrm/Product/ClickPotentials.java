@@ -1,5 +1,5 @@
 package com.argocrm.Product;
-
+//vijaya
 import org.testng.annotations.Test;
 
 import com.argocrm.Pages.ContactsPage;
@@ -11,7 +11,7 @@ import com.argocrm.Pages.PotentialsPage;
 import com.argocrm.Pages.SignInPage;
 import com.argocrm.genericLib.BaseTest;
 import com.argocrm.genericLib.FileLib;
-//vijaya
+
 public class ClickPotentials extends BaseTest {
 	@Test
 	 public void Potential()throws Throwable{
