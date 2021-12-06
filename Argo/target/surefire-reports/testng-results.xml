@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[create product sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="268100" started-at="2021-11-13T16:05:51 IST" finished-at="2021-11-13T16:10:19 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="268100" started-at="2021-11-13T16:05:51 IST" finished-at="2021-11-13T16:10:19 IST">
+      <class name="com.argocrm.Product.CreateProductsTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.CreateProductsTest@3fd7a715]" name="openBrowser" is-config="true" duration-ms="5370" started-at="2021-11-13T16:10:10 IST" finished-at="2021-11-13T16:10:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="SignInPage()[pri:0, instance:com.argocrm.Product.CreateProductsTest@3fd7a715]" name="SignInPage" duration-ms="3064" started-at="2021-11-13T16:10:15 IST" finished-at="2021-11-13T16:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.CreateProductsTest@3fd7a715]" name="browser" is-config="true" duration-ms="916" started-at="2021-11-13T16:10:18 IST" finished-at="2021-11-13T16:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.CreateProductsTest -->
+      <class name="com.argocrm.Product.ClickContacts">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickContacts@131276c2]" name="openBrowser" is-config="true" duration-ms="5503" started-at="2021-11-13T16:08:27 IST" finished-at="2021-11-13T16:08:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ContactsPage()[pri:0, instance:com.argocrm.Product.ClickContacts@131276c2]" name="ContactsPage" duration-ms="4710" started-at="2021-11-13T16:08:33 IST" finished-at="2021-11-13T16:08:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsPage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickContacts@131276c2]" name="browser" is-config="true" duration-ms="930" started-at="2021-11-13T16:08:37 IST" finished-at="2021-11-13T16:08:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickContacts -->
+      <class name="com.argocrm.tests.CreateProducts">
+        <test-method status="PASS" signature="Products()[pri:0, instance:com.argocrm.tests.CreateProducts@4f063c0a]" name="Products" duration-ms="2" started-at="2021-11-13T16:06:24 IST" finished-at="2021-11-13T16:06:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[create product sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Products -->
+      </class> <!-- com.argocrm.tests.CreateProducts -->
+      <class name="com.argocrm.Product.ClickNewContact">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickNewContact@5a8806ef]" name="openBrowser" is-config="true" duration-ms="6198" started-at="2021-11-13T16:05:51 IST" finished-at="2021-11-13T16:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="NewContactPage()[pri:0, instance:com.argocrm.Product.ClickNewContact@5a8806ef]" name="NewContactPage" duration-ms="25959" started-at="2021-11-13T16:05:57 IST" finished-at="2021-11-13T16:06:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewContactPage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickNewContact@5a8806ef]" name="browser" is-config="true" duration-ms="955" started-at="2021-11-13T16:06:23 IST" finished-at="2021-11-13T16:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickNewContact -->
+      <class name="com.argocrm.Product.ClickProductsPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickProductsPage@1f554b06]" name="openBrowser" is-config="true" duration-ms="5512" started-at="2021-11-13T16:07:22 IST" finished-at="2021-11-13T16:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ProductPage()[pri:0, instance:com.argocrm.Product.ClickProductsPage@1f554b06]" name="ProductPage" duration-ms="24426" started-at="2021-11-13T16:07:27 IST" finished-at="2021-11-13T16:07:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickProductsPage@1f554b06]" name="browser" is-config="true" duration-ms="1064" started-at="2021-11-13T16:07:52 IST" finished-at="2021-11-13T16:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickProductsPage -->
+      <class name="com.argocrm.Product.ClickLeads">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickLeads@614ddd49]" name="openBrowser" is-config="true" duration-ms="5593" started-at="2021-11-13T16:06:57 IST" finished-at="2021-11-13T16:07:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Leads()[pri:0, instance:com.argocrm.Product.ClickLeads@614ddd49]" name="Leads" duration-ms="18511" started-at="2021-11-13T16:07:02 IST" finished-at="2021-11-13T16:07:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Leads -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickLeads@614ddd49]" name="browser" is-config="true" duration-ms="969" started-at="2021-11-13T16:07:21 IST" finished-at="2021-11-13T16:07:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickLeads -->
+      <class name="com.argocrm.Product.ClickPurchaseOrder">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickPurchaseOrder@26aa12dd]" name="openBrowser" is-config="true" duration-ms="5389" started-at="2021-11-13T16:08:38 IST" finished-at="2021-11-13T16:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Purchase()[pri:0, instance:com.argocrm.Product.ClickPurchaseOrder@26aa12dd]" name="Purchase" duration-ms="84974" started-at="2021-11-13T16:08:44 IST" finished-at="2021-11-13T16:10:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickPurchaseOrder@26aa12dd]" name="browser" is-config="true" duration-ms="881" started-at="2021-11-13T16:10:09 IST" finished-at="2021-11-13T16:10:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickPurchaseOrder -->
+      <class name="com.argocrm.Product.ClickPotentials">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.ClickPotentials@76707e36]" name="openBrowser" is-config="true" duration-ms="5270" started-at="2021-11-13T16:06:37 IST" finished-at="2021-11-13T16:06:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Potential()[pri:0, instance:com.argocrm.Product.ClickPotentials@76707e36]" name="Potential" duration-ms="12851" started-at="2021-11-13T16:06:43 IST" finished-at="2021-11-13T16:06:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Potential -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.ClickPotentials@76707e36]" name="browser" is-config="true" duration-ms="1062" started-at="2021-11-13T16:06:55 IST" finished-at="2021-11-13T16:06:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.ClickPotentials -->
+      <class name="com.argocrm.Product.VerifyHomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.VerifyHomePageTest@1e6d1014]" name="openBrowser" is-config="true" duration-ms="5512" started-at="2021-11-13T16:06:24 IST" finished-at="2021-11-13T16:06:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:com.argocrm.Product.VerifyHomePageTest@1e6d1014]" name="Homepage" duration-ms="6949" started-at="2021-11-13T16:06:30 IST" finished-at="2021-11-13T16:06:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.VerifyHomePageTest@1e6d1014]" name="browser" is-config="true" duration-ms="874" started-at="2021-11-13T16:06:36 IST" finished-at="2021-11-13T16:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.VerifyHomePageTest -->
+      <class name="com.argocrm.Product.NewCampainPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.argocrm.Product.NewCampainPage@694e1548]" name="openBrowser" is-config="true" duration-ms="5458" started-at="2021-11-13T16:07:53 IST" finished-at="2021-11-13T16:07:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="CampainPage()[pri:0, instance:com.argocrm.Product.NewCampainPage@694e1548]" name="CampainPage" duration-ms="28249" started-at="2021-11-13T16:07:58 IST" finished-at="2021-11-13T16:08:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampainPage -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.argocrm.Product.NewCampainPage@694e1548]" name="browser" is-config="true" duration-ms="878" started-at="2021-11-13T16:08:26 IST" finished-at="2021-11-13T16:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.argocrm.Product.NewCampainPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
